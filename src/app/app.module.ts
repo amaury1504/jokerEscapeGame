@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { IndiceComponent } from './indice/indice.component';
+import { CibleComponent } from './cible/cible.component';
+import { DestructionComponent } from './destruction/destruction.component';
+import { UrlComponent } from './url/url.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IndiceComponent,
+    CibleComponent,
+    DestructionComponent,
+    UrlComponent
   ],
   imports: [
     BrowserModule,
