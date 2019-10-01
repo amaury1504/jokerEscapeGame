@@ -6,14 +6,16 @@ import { AppComponent } from './app.component';
 import { DestructionComponent } from './destruction/destruction.component';
 import { IndiceComponent } from './indice/indice.component';
 import { UrlComponent } from './url/url.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
   { path: 'cible', component: CibleComponent },
-  { path: '', component: AppComponent },
   { path: 'destruction', component: DestructionComponent},
   { path: 'indice', component: IndiceComponent},
-  { path: 'Amauryestbeau', component: UrlComponent}
+  { path: 'Amauryestbeau', component: UrlComponent},
+  { path: 'home', component: HomeComponent},
+  { path: '',   redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({

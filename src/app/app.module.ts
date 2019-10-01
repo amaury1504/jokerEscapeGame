@@ -7,6 +7,7 @@ import { IndiceComponent } from './indice/indice.component';
 import { CibleComponent } from './cible/cible.component';
 import { DestructionComponent } from './destruction/destruction.component';
 import { UrlComponent } from './url/url.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UrlComponent } from './url/url.component';
     IndiceComponent,
     CibleComponent,
     DestructionComponent,
-    UrlComponent
+    UrlComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
