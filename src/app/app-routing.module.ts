@@ -1,8 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { CibleComponent } from './cible/cible.component';
+import { AppComponent } from './app.component';
+import { DestructionComponent } from './destruction/destruction.component';
+import { IndiceComponent } from './indice/indice.component';
+import { UrlComponent } from './url/url.component';
+import { HomeComponent } from './home/home.component';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  { path: 'cible', component: CibleComponent },
+  { path: 'destruction', component: DestructionComponent},
+  { path: 'indice', component: IndiceComponent},
+  { path: 'Amauryestbeau', component: UrlComponent},
+  { path: 'home', component: HomeComponent},
+  { path: '',   redirectTo: '/home', pathMatch: 'full' }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
