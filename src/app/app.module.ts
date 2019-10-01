@@ -18,7 +18,7 @@ import { UrlComponent } from './url/url.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
