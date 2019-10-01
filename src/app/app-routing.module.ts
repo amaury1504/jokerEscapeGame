@@ -7,6 +7,7 @@ import { DestructionComponent } from './destruction/destruction.component';
 import { IndiceComponent } from './indice/indice.component';
 import { UrlComponent } from './url/url.component';
 import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'indice', component: IndiceComponent},
   { path: 'Amauryestbeau', component: UrlComponent},
   { path: 'home', component: HomeComponent},
-  { path: '',   redirectTo: '/home', pathMatch: 'full' }
+  { path: '',   redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

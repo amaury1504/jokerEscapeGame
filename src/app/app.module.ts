@@ -8,6 +8,7 @@ import { CibleComponent } from './cible/cible.component';
 import { DestructionComponent } from './destruction/destruction.component';
 import { UrlComponent } from './url/url.component';
 import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
     CibleComponent,
     DestructionComponent,
     UrlComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
