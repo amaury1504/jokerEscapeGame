@@ -12,7 +12,7 @@ import { BoutiqueComponent } from './boutique/boutique.component';
 const routes: Routes = [
   { path: 'indice', component: IndiceComponent},
   { path: 'boutique', component: BoutiqueComponent},
-  { path: 'Amauryestbeau', component: UrlComponent},
+  { path: '249BER', component: UrlComponent},
   { path: 'home', component: HomeComponent},
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }

@@ -7,14 +7,16 @@
 
  #mainNav {
     min-height: 56px;
-    background-color: #fff;
+    background-color: #0B0B0B;
   }
   
   #mainNav .navbar-toggler {
-    font-size: 80%;
+    font-size: 100%;
     padding: 0.75rem;
-    color: #64a19d;
-    border: 1px solid #64a19d;
+    color: #fff;
+    border: 1px solid #FF0606;
+    font-family: angry;
+    background: #FF0606;
   }
   
   #mainNav .navbar-toggler:focus {
@@ -196,7 +198,7 @@
       padding: 5rem;
     }
     .projects-section .project-text hr {
-      border-color: #64a19d;
+      border-color: #FF0D0D;
       border-width: .25rem;
       width: 30%;
     }
